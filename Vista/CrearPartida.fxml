@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ComboBox layoutX="28.0" layoutY="51.0" prefWidth="150.0" />
+            <TextField layoutX="196.0" layoutY="51.0" />
+            <TextField layoutX="373.0" layoutY="51.0" />
+            <Button layoutX="178.0" layoutY="346.0" mnemonicParsing="false" text="Agregar Registro" />
+            <Button layoutX="325.0" layoutY="346.0" mnemonicParsing="false" text="Aceptar" />
+            <TextArea layoutX="74.0" layoutY="248.0" prefHeight="74.0" prefWidth="453.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

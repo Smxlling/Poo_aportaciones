@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="254.0" layoutY="76.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TreeTableView layoutX="18.0" layoutY="35.0" prefHeight="331.0" prefWidth="564.0">
+              <columns>
+                  <TreeTableColumn prefWidth="563.0" text="Cuenta: ">
+                     <columns>
+                      <TreeTableColumn prefWidth="270.0" text="Debe" />
+                        <TreeTableColumn prefWidth="293.0" text="Haber" />
+                     </columns>
+                  </TreeTableColumn>
+              </columns>
+            </TreeTableView>
+            <Label layoutX="256.0" layoutY="14.0" text="Partida Doble" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
